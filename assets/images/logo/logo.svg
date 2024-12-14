@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 50">
+  <defs>
+    <style>
+      .text {
+        fill: #202020; /* Dark Gray */
+        font-family: 'Verdana'; /* Clean and simple bold font */
+
+        font-size: 27px;
+        font-weight: bold;
+      }
+    </style>
+  </defs>
+  <text x="10" y="35" class="text">Terry Towel</text>
+</svg>

@@ -1,0 +1,2985 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kshirsagar TerryTowel</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo/favicon.jpg" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style-prefix.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+
+
+  <div class="overlay" data-overlay></div>
+
+  <!--
+    - MODAL
+  -->
+
+  <div class="modal" data-modal>
+
+    <div class="modal-close-overlay" data-modal-overlay></div>
+
+    <div class="modal-content">
+
+      <button class="modal-close-btn" data-modal-close>
+        <ion-icon name="close-outline"></ion-icon>
+      </button>
+
+      <div class="newsletter-img">
+        <img src="./assets/images/newsletter.png" alt="subscribe newsletter" width="400" height="400">
+      </div>
+
+      <div class="newsletter">
+
+        <form action="#">
+
+          <div class="newsletter-header">
+
+            <h3 class="newsletter-title">Get the LFC merchandise.</h3>
+
+            <p class="newsletter-desc">
+              From <b>Kshirsagar TerryTowel</b> to the loved LFCians.
+            </p>
+
+          </div>
+
+          <input type="email" name="email" class="email-field" placeholder="Email Address" required>
+
+          <button type="submit" class="btn-newsletter">Get in touch</button>
+
+        </form>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+
+
+  <!--
+    - NOTIFICATION TOAST
+  -->
+
+  <div class="notification-toast" data-toast>
+
+    <button class="toast-close-btn" data-toast-close>
+      <ion-icon name="close-outline"></ion-icon>
+    </button>
+
+    <div class="toast-banner">
+      <!-- Example for a bath towel product -->
+      <img src="./assets/images/products/terrytowel/solapuri chaddar.webp" alt="Velour Beach Towel" width="80" height="70">
+    </div>
+
+    <div class="toast-detail">
+
+      <p class="toast-message">
+        Get the LFC merchandise
+      </p>
+
+      <p class="toast-title">
+        By Kshirsagar Terry Towel
+      </p>
+
+      <p class="toast-meta">
+        <time datetime="PT2M">Rahul Kshirsagar</time> 2001 batch
+      </p>
+
+    </div>
+
+</div>
+
+
+
+
+
+
+  <!--
+    - HEADER
+  -->
+
+  <header>
+
+    <div class="header-top">
+
+      <div class="container">
+
+        <ul class="header-social-container">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+        <!-- <div class="header-alert-news">
+          <p>
+            <b>Free Shipping</b>
+            This Week Order Over - $55
+          </p>
+        </div> -->
+
+        <div class="header-top-actions">
+
+          <select name="currency">
+
+            <option value="inr">INR ₹</option>
+            <option value="usd">USD &dollar;</option>
+            <!-- <option value="eur">EUR &euro;</option> -->
+
+          </select>
+
+          <select name="language">
+
+            <option value="en-US">English</option>
+            <!-- <option value="es-ES">Espa&ntilde;ol</option>
+            <option value="fr">Fran&ccedil;ais</option> -->
+
+          </select>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="header-main">
+
+      <div class="container">
+
+        <a href="#" class="header-logo">
+          <img src="./assets/images/logo/logo.svg" alt="Anon's logo" width="120" height="36">
+        </a>
+
+        <div class="header-search-container">
+
+          <input type="search" name="search" class="search-field" placeholder="Enter your product name...">
+
+          <button class="search-btn">
+            <ion-icon name="search-outline"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="header-user-actions">
+
+          <button class="action-btn">
+            <ion-icon name="person-outline"></ion-icon>
+          </button>
+
+          <button class="action-btn">
+            <ion-icon name="heart-outline"></ion-icon>
+            <span class="count">0</span>
+          </button>
+
+          <!-- <button class="action-btn">
+            <ion-icon name="bag-handle-outline"></ion-icon>
+            <span class="count">0</span>
+          </button> -->
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <nav class="desktop-navigation-menu">
+      <div class="container">
+        <ul class="desktop-menu-category-list">
+    
+          <li class="menu-category">
+            <a href="#" class="menu-title">Home</a>
+          </li>
+    
+          <li class="menu-category">
+            <a href="#" class="menu-title">Categories</a>
+            <div class="dropdown-panel">
+    
+              <ul class="dropdown-panel-list">
+                <li class="menu-title">
+                  <a href="#">Hotel Towels</a>
+                </li>
+                <li class="panel-list-item">
+                  <a href="#">Bath Towels</a>
+                </li>
+                <li class="panel-list-item">
+                  <a href="#">Face Towels</a>
+                </li>
+                <li class="panel-list-item">
+                  <a href="#">Hand Towels</a>
+                </li>
+                <li class="panel-list-item">
+                  <a href="#">Duvel Towels</a>
+                </li>
+                <li class="panel-list-item">
+                  <a href="#">Satin Stripe Bedsheets</a>
+                </li>
+                <li class="panel-list-item">
+                  <a href="#">Duvets</a>
+                </li>
+                <li class="panel-list-item">
+                  <a href="#">Bath Mats</a>
+                </li>
+                <li class="panel-list-item">
+                  <a href="#">Pool Towels</a>
+                </li>
+                <li class="panel-list-item">
+                  <a href="#">Plain Bedsheets for Hotels</a>
+                </li>
+              </ul>
+    
+              <ul class="dropdown-panel-list">
+                <li class="menu-title">
+                  <a href="#">Bath Towels</a>
+                </li>
+                <li class="panel-list-item">
+                  <a href="#">Plain Dyed Towels</a>
+                </li>
+                <li class="panel-list-item">
+                  <a href="#">Velour Beach Towels</a>
+                </li>
+                <li class="panel-list-item">
+                  <a href="#">Embroidery Towels</a>
+                </li>
+                <li class="panel-list-item">
+                  <a href="#">Institutional Towels</a>
+                </li>
+                <li class="panel-list-item">
+                  <a href="#">Cabana Towels</a>
+                </li>
+                <li class="panel-list-item">
+                  <a href="#">Round Beach Towels</a>
+                </li>
+                <li class="panel-list-item">
+                  <a href="#">Logo Towels</a>
+                </li>
+              </ul>
+    
+              <ul class="dropdown-panel-list">
+                <li class="menu-title">
+                  <a href="#">Kitchen Towels</a>
+                </li>
+                <li class="panel-list-item">
+                  <a href="#">Jacquard Kitchen Towels</a>
+                </li>
+                <li class="panel-list-item">
+                  <a href="#">Dobby Checks</a>
+                </li>
+                <li class="panel-list-item">
+                  <a href="#">Super Checks</a>
+                </li>
+                <li class="panel-list-item">
+                  <a href="#">Big Square Checks</a>
+                </li>
+              </ul>
+    
+              <ul class="dropdown-panel-list">
+                <li class="menu-title">
+                  <a href="#">Solapuri Chaddars & Bedsheets</a>
+                </li>
+                <li class="panel-list-item">
+                  <a href="#">Round Towels</a>
+                </li>
+                <li class="panel-list-item">
+                  <a href="#">Prayer Mats</a>
+                </li>
+                <li class="panel-list-item">
+                  <a href="#">Meditation Mats</a>
+                </li>
+                <li class="panel-list-item">
+                  <a href="#">Prayer Mats for All Religions</a>
+                </li>
+              </ul>
+    
+            </div>
+          </li>
+    
+          <li class="menu-category">
+            <a href="#" class="menu-title">Hotel Towels</a>
+            <ul class="dropdown-list">
+              <li class="dropdown-item">
+                <a href="#">Bath Towels</a>
+              </li>
+              <li class="dropdown-item">
+                <a href="#">Face Towels</a>
+              </li>
+              <li class="dropdown-item">
+                <a href="#">Hand Towels</a>
+              </li>
+              <li class="dropdown-item">
+                <a href="#">Duvel Towels</a>
+              </li>
+            </ul>
+          </li>
+    
+          <li class="menu-category">
+            <a href="#" class="menu-title">Bath Towels</a>
+            <ul class="dropdown-list">
+              <li class="dropdown-item">
+                <a href="#">Plain Dyed Towels</a>
+              </li>
+              <li class="dropdown-item">
+                <a href="#">Velour Beach Towels</a>
+              </li>
+              <li class="dropdown-item">
+                <a href="#">Embroidery Towels</a>
+              </li>
+              <li class="dropdown-item">
+                <a href="#">Institutional Towels</a>
+              </li>
+            </ul>
+          </li>
+    
+          <li class="menu-category">
+            <a href="#" class="menu-title">Solapuri Chaddars & Bedsheets</a>
+            <ul class="dropdown-list">
+              <li class="dropdown-item">
+                <a href="#">Round Towels</a>
+              </li>
+              <li class="dropdown-item">
+                <a href="#">Bedsheets</a>
+              </li>
+            </ul>
+          </li>
+    
+        </ul>
+      </div>
+    </nav>
+    
+
+    <div class="mobile-bottom-navigation">
+
+      <button class="action-btn" data-mobile-menu-open-btn>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <button class="action-btn">
+        <ion-icon name="bag-handle-outline"></ion-icon>
+
+        <span class="count">0</span>
+      </button>
+
+      <button class="action-btn">
+        <ion-icon name="home-outline"></ion-icon>
+      </button>
+
+      <button class="action-btn">
+        <ion-icon name="heart-outline"></ion-icon>
+
+        <span class="count">0</span>
+      </button>
+
+      <button class="action-btn" data-mobile-menu-open-btn>
+        <ion-icon name="grid-outline"></ion-icon>
+      </button>
+
+    </div>
+
+    <nav class="mobile-navigation-menu has-scrollbar" data-mobile-menu>
+
+      <div class="menu-top">
+        <h2 class="menu-title">Menu</h2>
+    
+        <button class="menu-close-btn" data-mobile-menu-close-btn>
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+      </div>
+    
+      <ul class="mobile-menu-category-list">
+    
+        <li class="menu-category">
+          <a href="#" class="menu-title">Home</a>
+        </li>
+    
+        <li class="menu-category">
+          <button class="accordion-menu" data-accordion-btn>
+            <p class="menu-title">Hotel Towels</p>
+            <div>
+              <ion-icon name="add-outline" class="add-icon"></ion-icon>
+              <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+            </div>
+          </button>
+          <ul class="submenu-category-list" data-accordion>
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Bath Towels</a>
+            </li>
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Face Towels</a>
+            </li>
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Hand Towels</a>
+            </li>
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Duvel Towels</a>
+            </li>
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Satin Stripe Bedsheets</a>
+            </li>
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Duvets</a>
+            </li>
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Bath Mats</a>
+            </li>
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Pool Towels</a>
+            </li>
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Plain Bedsheets</a>
+            </li>
+          </ul>
+        </li>
+    
+        <li class="menu-category">
+          <button class="accordion-menu" data-accordion-btn>
+            <p class="menu-title">Bath Towels</p>
+            <div>
+              <ion-icon name="add-outline" class="add-icon"></ion-icon>
+              <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+            </div>
+          </button>
+          <ul class="submenu-category-list" data-accordion>
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Plain Dyed Towels</a>
+            </li>
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Velour Beach Towels</a>
+            </li>
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Embroidery Towels</a>
+            </li>
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Institutional Towels</a>
+            </li>
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Cabana Towels</a>
+            </li>
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Round Beach Towels</a>
+            </li>
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Logo Towels</a>
+            </li>
+          </ul>
+        </li>
+    
+        <li class="menu-category">
+          <button class="accordion-menu" data-accordion-btn>
+            <p class="menu-title">Kitchen Towels</p>
+            <div>
+              <ion-icon name="add-outline" class="add-icon"></ion-icon>
+              <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+            </div>
+          </button>
+          <ul class="submenu-category-list" data-accordion>
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Jacquard Kitchen Towels</a>
+            </li>
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Dobby Checks</a>
+            </li>
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Super Checks</a>
+            </li>
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Big Square Checks</a>
+            </li>
+          </ul>
+        </li>
+    
+        <li class="menu-category">
+          <button class="accordion-menu" data-accordion-btn>
+            <p class="menu-title">Solapuri Chaddars & Bedsheets</p>
+            <div>
+              <ion-icon name="add-outline" class="add-icon"></ion-icon>
+              <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+            </div>
+          </button>
+          <ul class="submenu-category-list" data-accordion>
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Round Towels</a>
+            </li>
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Prayer Mats</a>
+            </li>
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Meditation Mats</a>
+            </li>
+          </ul>
+        </li>
+    
+        <li class="menu-category">
+          <a href="#" class="menu-title">Blog</a>
+        </li>
+    
+        <li class="menu-category">
+          <a href="#" class="menu-title">Hot Offers</a>
+        </li>
+    
+      </ul>
+    
+      <div class="menu-bottom">
+    
+        <ul class="menu-category-list">
+    
+          <li class="menu-category">
+            <button class="accordion-menu" data-accordion-btn>
+              <p class="menu-title">Language</p>
+              <ion-icon name="caret-back-outline" class="caret-back"></ion-icon>
+            </button>
+            <ul class="submenu-category-list" data-accordion>
+              <li class="submenu-category">
+                <a href="#" class="submenu-title">English</a>
+              </li>
+            </ul>
+          </li>
+    
+          <li class="menu-category">
+            <button class="accordion-menu" data-accordion-btn>
+              <p class="menu-title">Currency</p>
+              <ion-icon name="caret-back-outline" class="caret-back"></ion-icon>
+            </button>
+            <ul class="submenu-category-list" data-accordion>
+              <li class="submenu-category">
+                <a href="#" class="submenu-title">INR ₹</a>
+              </li>
+            </ul>
+          </li>
+    
+        </ul>
+    
+        <ul class="menu-social-container">
+    
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+    
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+    
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+    
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+    
+        </ul>
+    
+      </div>
+    
+    </nav>
+    
+
+  </header>
+
+
+
+
+
+  <!--
+    - MAIN
+  -->
+
+  <main>
+
+    <!--
+      - BANNER
+    -->
+
+    <div class="banner">
+
+      <div class="container">
+    
+        <div class="slider-container has-scrollbar">
+
+          <div class="slider-item">
+    
+            <img src="./assets/images/banner-1.png" alt="Hotel towels sale" class="banner-img">
+    
+            <div class="banner-content">
+    
+              <p class="banner-subtitle">Exclusive Offer</p>
+    
+              <h2 class="banner-title">For the LFCHS reunion merchandise collection</h2>
+    
+              <!-- <p class="banner-text">
+                starting at ₹ <b>999</b>.00
+              </p> -->
+    
+              <a href="#" class="banner-btn">Shop now</a>
+    
+            </div>
+    
+          </div>
+    
+          <div class="slider-item">
+    
+            <img src="./assets/images/banner-2.png" alt="Hotel towels sale" class="banner-img">
+    
+            <div class="banner-content">
+    
+              <p class="banner-subtitle">Exclusive Offer</p>
+    
+              <h2 class="banner-title">Hotel Towels Collection</h2>
+    
+              <!-- <p class="banner-text">
+                starting at ₹ <b>999</b>.00
+              </p> -->
+    
+              <a href="#" class="banner-btn">Shop now</a>
+    
+            </div>
+    
+          </div>
+    
+          <div class="slider-item">
+    
+            <img src="./assets/images/banner-1.png" alt="Bath towels collection" class="banner-img">
+    
+            <div class="banner-content">
+    
+              <p class="banner-subtitle">Best Seller</p>
+    
+              <h2 class="banner-title">Premium Bath Towels</h2>
+    
+              <!-- <p class="banner-text">
+                starting at ₹ <b>499</b>.00
+              </p> -->
+    
+              <a href="#" class="banner-btn">Shop now</a>
+    
+            </div>
+    
+          </div>
+    
+          <div class="slider-item">
+    
+            <img src="./assets/images/banner-3.png" alt="Kitchen towels offer" class="banner-img">
+    
+            <div class="banner-content">
+    
+              <p class="banner-subtitle">Limited Time Offer</p>
+    
+              <h2 class="banner-title">Best Bathrobe Collection</h2>
+    
+              <!-- <p class="banner-text">
+                starting at ₹ <b>199</b>.00
+              </p> -->
+    
+              <a href="#" class="banner-btn">Shop now</a>
+    
+            </div>
+    
+          </div>
+    
+        </div>
+    
+      </div>
+    
+    </div>
+    
+
+
+
+
+
+    <!--
+      - CATEGORY
+    -->
+
+    <div class="category">
+
+      <div class="container">
+    
+        <div class="category-item-container has-scrollbar">
+    
+          <div class="category-item">
+    
+            <!-- <div class="category-img-box">
+              <img src="./assets/images/icons/hotel-towel.svg" alt="Hotel Towels" width="30">
+            </div> -->
+    
+            <div class="category-content-box">
+    
+              <div class="category-content-flex">
+                <h3 class="category-item-title">Hotel Towels</h3>
+    
+                <p class="category-item-amount">(120)</p>
+              </div>
+    
+              <a href="#" class="category-btn">Show all</a>
+    
+            </div>
+    
+          </div>
+    
+          <div class="category-item">
+    
+            <!-- <div class="category-img-box">
+              <img src="./assets/images/icons/bath-towel.svg" alt="Bath Towels" width="30">
+            </div> -->
+    
+            <div class="category-content-box">
+    
+              <div class="category-content-flex">
+                <h3 class="category-item-title">Bath Towels</h3>
+    
+                <p class="category-item-amount">(98)</p>
+              </div>
+    
+              <a href="#" class="category-btn">Show all</a>
+    
+            </div>
+    
+          </div>
+    
+          <div class="category-item">
+    
+            <!-- <div class="category-img-box">
+              <img src="./assets/images/icons/kitchen-towel.svg" alt="Kitchen Towels" width="30">
+            </div> -->
+    
+            <div class="category-content-box">
+    
+              <div class="category-content-flex">
+                <h3 class="category-item-title">Kitchen Towels</h3>
+    
+                <p class="category-item-amount">(55)</p>
+              </div>
+    
+              <a href="#" class="category-btn">Show all</a>
+    
+            </div>
+    
+          </div>
+    
+          <div class="category-item">
+    
+            <!-- <div class="category-img-box">
+              <img src="./assets/images/icons/solapuri-chaddar.svg" alt="Solapuri Chaddars & Bedsheets" width="30">
+            </div> -->
+    
+            <div class="category-content-box">
+    
+              <div class="category-content-flex">
+                <h3 class="category-item-title">Solapuri Chaddars & Bedsheets</h3>
+    
+                <p class="category-item-amount">(72)</p>
+              </div>
+    
+              <a href="#" class="category-btn">Show all</a>
+    
+            </div>
+    
+          </div>
+    
+          <div class="category-item">
+    
+            <!-- <div class="category-img-box">
+              <img src="./assets/images/icons/round-towel.svg" alt="Round Towels" width="30">
+            </div> -->
+    
+            <div class="category-content-box">
+    
+              <div class="category-content-flex">
+                <h3 class="category-item-title">Round Towels</h3>
+    
+                <p class="category-item-amount">(45)</p>
+              </div>
+    
+              <a href="#" class="category-btn">Show all</a>
+    
+            </div>
+    
+          </div>
+    
+          <div class="category-item">
+    
+            <!-- <div class="category-img-box">
+              <img src="./assets/images/icons/bed-mat.svg" alt="Bath Mats" width="30">
+            </div> -->
+    
+            <div class="category-content-box">
+    
+              <div class="category-content-flex">
+                <h3 class="category-item-title">Bath Mats</h3>
+    
+                <p class="category-item-amount">(28)</p>
+              </div>
+    
+              <a href="#" class="category-btn">Show all</a>
+    
+            </div>
+    
+          </div>
+    
+        </div>
+    
+      </div>
+    
+    </div>
+    
+
+
+
+
+    <!--
+      - PRODUCT
+    -->
+
+    <div class="product-container">
+
+      <div class="container">
+
+
+        <!--
+          - SIDEBAR
+        -->
+
+        <div class="sidebar  has-scrollbar" data-mobile-menu>
+
+          <div class="sidebar-category">
+
+            <div class="sidebar-top">
+              <h2 class="sidebar-title">Category</h2>
+
+              <button class="sidebar-close-btn" data-mobile-menu-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+            </div>
+
+            <ul class="sidebar-menu-category-list">
+              <li class="sidebar-menu-category">
+                <button class="sidebar-accordion-menu" data-accordion-btn>
+                  <div class="menu-title-flex">
+                    <!-- <img src="./assets/images/icons/hotel-towels.svg" alt="hotel towels" width="20" height="20" class="menu-title-img"> -->
+                    <p class="menu-title">Hotel Towels</p>
+                  </div>
+                  <div>
+                    <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                    <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+                  </div>
+                </button>
+                <ul class="sidebar-submenu-category-list" data-accordion>
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Bath Towels</p>
+                      <data value="500" class="stock" title="Available Stock">500</data>
+                    </a>
+                  </li>
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Face Towels</p>
+                      <data value="300" class="stock" title="Available Stock">300</data>
+                    </a>
+                  </li>
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Hand Towels</p>
+                      <data value="200" class="stock" title="Available Stock">200</data>
+                    </a>
+                  </li>
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Duvel Towels</p>
+                      <data value="150" class="stock" title="Available Stock">150</data>
+                    </a>
+                  </li>
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Satin Stripe Bedsheets</p>
+                      <data value="100" class="stock" title="Available Stock">100</data>
+                    </a>
+                  </li>
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Duveils</p>
+                      <data value="120" class="stock" title="Available Stock">120</data>
+                    </a>
+                  </li>
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Bath Mats</p>
+                      <data value="80" class="stock" title="Available Stock">80</data>
+                    </a>
+                  </li>
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Pool Towels</p>
+                      <data value="60" class="stock" title="Available Stock">60</data>
+                    </a>
+                  </li>
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Plain Bedsheets</p>
+                      <data value="150" class="stock" title="Available Stock">150</data>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            
+              <li class="sidebar-menu-category">
+                <button class="sidebar-accordion-menu" data-accordion-btn>
+                  <div class="menu-title-flex">
+                    <!-- <img src="./assets/images/icons/bath-towels.svg" alt="bath towels" class="menu-title-img" width="20" height="20"> -->
+                    <p class="menu-title">Bath Towels</p>
+                  </div>
+                  <div>
+                    <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                    <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+                  </div>
+                </button>
+                <ul class="sidebar-submenu-category-list" data-accordion>
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Plain Dyed Towels</p>
+                      <data value="500" class="stock" title="Available Stock">500</data>
+                    </a>
+                  </li>
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Velour Beach Towels</p>
+                      <data value="350" class="stock" title="Available Stock">350</data>
+                    </a>
+                  </li>
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Embroidery Towels</p>
+                      <data value="250" class="stock" title="Available Stock">250</data>
+                    </a>
+                  </li>
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Institutional Towels</p>
+                      <data value="120" class="stock" title="Available Stock">120</data>
+                    </a>
+                  </li>
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Cabana Towels</p>
+                      <data value="100" class="stock" title="Available Stock">100</data>
+                    </a>
+                  </li>
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Round Beach Towels</p>
+                      <data value="50" class="stock" title="Available Stock">50</data>
+                    </a>
+                  </li>
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Logo Towels</p>
+                      <data value="120" class="stock" title="Available Stock">120</data>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            
+              <li class="sidebar-menu-category">
+                <button class="sidebar-accordion-menu" data-accordion-btn>
+                  <div class="menu-title-flex">
+                    <!-- <img src="./assets/images/icons/kitchen-towels.svg" alt="kitchen towels" class="menu-title-img" width="20" height="20"> -->
+                    <p class="menu-title">Kitchen Towels</p>
+                  </div>
+                  <div>
+                    <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                    <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+                  </div>
+                </button>
+                <ul class="sidebar-submenu-category-list" data-accordion>
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Jacquard Kitchen Towels</p>
+                      <data value="200" class="stock" title="Available Stock">200</data>
+                    </a>
+                  </li>
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Dobby Checks</p>
+                      <data value="150" class="stock" title="Available Stock">150</data>
+                    </a>
+                  </li>
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Super Checks</p>
+                      <data value="120" class="stock" title="Available Stock">120</data>
+                    </a>
+                  </li>
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Big Square Checks</p>
+                      <data value="90" class="stock" title="Available Stock">90</data>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            
+              <li class="sidebar-menu-category">
+                <button class="sidebar-accordion-menu" data-accordion-btn>
+                  <div class="menu-title-flex">
+                    <!-- <img src="./assets/images/icons/solapuri-chaddars.svg" alt="Solapuri Chaddars" class="menu-title-img" width="20" height="20"> -->
+                    <p class="menu-title">Solapuri Chaddars</p>
+                  </div>
+                  <div>
+                    <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                    <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+                  </div>
+                </button>
+                <ul class="sidebar-submenu-category-list" data-accordion>
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Solapuri Chaddars</p>
+                      <data value="500" class="stock" title="Available Stock">500</data>
+                    </a>
+                  </li>
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Round Towels</p>
+                      <data value="150" class="stock" title="Available Stock">150</data>
+                    </a>
+                  </li>
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Prayer Mats</p>
+                      <data value="200" class="stock" title="Available Stock">200</data>
+                    </a>
+                  </li>
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Meditation Mats</p>
+                      <data value="150" class="stock" title="Available Stock">150</data>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            
+
+          </div>
+
+          <div class="product-showcase">
+
+            <h3 class="showcase-heading">Best Sellers</h3>
+          
+            <div class="showcase-wrapper">
+          
+              <div class="showcase-container">
+          
+                <div class="showcase">
+          
+                  <a href="#" class="showcase-img-box">
+                    <img src="./assets/images/products/hoteltowels/bath linen.webp" alt="Hotel Bath Towel" width="75" height="75" class="showcase-img">
+                  </a>
+          
+                  <div class="showcase-content">
+          
+                    <a href="#">
+                      <h4 class="showcase-title">Hotel Bath Towel</h4>
+                    </a>
+          
+                    <div class="showcase-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+          
+                    <!-- <div class="price-box">
+                      <del>$15.00</del>
+                      <p class="price">$12.00</p>
+                    </div> -->
+          
+                  </div>
+          
+                </div>
+          
+                <div class="showcase">
+          
+                  <a href="#" class="showcase-img-box">
+                    <img src="./assets/images/products/hoteltowels/bath cover.jpg" alt="Velour Beach Towel" class="showcase-img" width="75" height="75">
+                  </a>
+          
+                  <div class="showcase-content">
+          
+                    <a href="#">
+                      <h4 class="showcase-title">Velour Beach Towel</h4>
+                    </a>
+          
+                    <div class="showcase-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-half-outline"></ion-icon>
+                    </div>
+          
+                    <!-- <div class="price-box">
+                      <del>$20.00</del>
+                      <p class="price">$14.00</p>
+                    </div> -->
+          
+                  </div>
+          
+                </div>
+          
+                <div class="showcase">
+          
+                  <a href="#" class="showcase-img-box">
+                    <img src="./assets/images/products/terrytowel/embroidered.jpeg" alt="Embroidery Towel" class="showcase-img" width="75" height="75">
+                  </a>
+          
+                  <div class="showcase-content">
+          
+                    <a href="#">
+                      <h4 class="showcase-title">Embroidery Towel</h4>
+                    </a>
+          
+                    <div class="showcase-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-half-outline"></ion-icon>
+                    </div>
+          
+                    <!-- <div class="price-box">
+                      <del>$8.00</del>
+                      <p class="price">$6.00</p>
+                    </div> -->
+          
+                  </div>
+          
+                </div>
+          
+                <div class="showcase">
+          
+                  <a href="#" class="showcase-img-box">
+                    <img src="./assets/images/products/terrytowel/chaddar.jpg" alt="Solapuri Chaddar" class="showcase-img" width="75" height="75">
+                  </a>
+          
+                  <div class="showcase-content">
+          
+                    <a href="#">
+                      <h4 class="showcase-title">Solapuri Chaddar</h4>
+                    </a>
+          
+                    <div class="showcase-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+          
+                    <!-- <div class="price-box">
+                      <del>$25.00</del>
+                      <p class="price">$18.00</p>
+                    </div> -->
+          
+                  </div>
+          
+                </div>
+          
+              </div>
+          
+            </div>
+          
+          </div>
+          
+
+        </div>
+
+
+
+        <div class="product-box">
+
+          <!--
+            - PRODUCT MINIMAL
+          -->
+
+          <div class="product-minimal">
+
+            <div class="product-showcase">
+
+              <h2 class="title">New Arrivals</h2>
+            
+              <div class="showcase-wrapper has-scrollbar">
+            
+                <div class="showcase-container">
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/terrytowel/satintype.jpg" alt="Luxury Satin Stripe Bedsheet" width="70" class="showcase-img">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Luxury Satin Stripe Bedsheet</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Hotel Collection</a>
+            
+                      <!-- <div class="price-box">
+                        <p class="price">$45.00</p>
+                        <del>$55.00</del>
+                      </div> -->
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/terrytowel/embroidered.jpeg" alt="Velour Embroidered Towel Set" class="showcase-img" width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Velour Embroidered Towel Set</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Bath Linens</a>
+            
+                      <!-- <div class="price-box">
+                        <p class="price">$61.00</p>
+                        <del>$72.00</del>
+                      </div> -->
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/terrytowel/jackquard.jpg" alt="Jacquard Kitchen Towels" class="showcase-img" width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Jacquard Kitchen Towels</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Kitchen Essentials</a>
+            
+                      <!-- <div class="price-box">
+                        <p class="price">$76.00</p>
+                        <del>$85.00</del>
+                      </div> -->
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/terrytowel/chaddar.jpg" alt="Solapuri Chaddar" class="showcase-img" width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Solapuri Chaddar</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Traditional Collection</a>
+            
+                      <!-- <div class="price-box">
+                        <p class="price">$68.00</p>
+                        <del>$75.00</del>
+                      </div> -->
+            
+                    </div>
+            
+                  </div>
+            
+                </div>
+            
+                <div class="showcase-container">
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/terrytowel/roundbeach.jpg" alt="Round Beach Towel" class="showcase-img" width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Round Beach Towel</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Beach Collection</a>
+            
+                      <!-- <div class="price-box">
+                        <p class="price">$61.00</p>
+                        <del>$70.00</del>
+                      </div> -->
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/hoteltowels/bath linen.webp" alt="Duvel Towels for Hotels" class="showcase-img" width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Duvel Towels for Hotels</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Hotel Collection</a>
+            
+                      <!-- <div class="price-box">
+                        <p class="price">$32.00</p>
+                        <del>$40.00</del>
+                      </div> -->
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/terrytowel/Plain Dyed Towels.jpg" alt="Plain Dyed Towels" class="showcase-img" width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Plain Dyed Towels</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Everyday Essentials</a>
+            
+                      <!-- <div class="price-box">
+                        <p class="price">$50.00</p>
+                        <del>$60.00</del>
+                      </div> -->
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/terrytowel/Prayer and Meditation Mats.jpg" alt="Prayer and Meditation Mats" class="showcase-img" width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Prayer and Meditation Mats</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Specialty Items</a>
+            
+                      <!-- <div class="price-box">
+                        <p class="price">$20.00</p>
+                        <del>$25.00</del>
+                      </div> -->
+            
+                    </div>
+            
+                  </div>
+            
+                </div>
+            
+              </div>
+            
+            </div>
+            
+
+            <div class="product-showcase">
+              <h2 class="title">Trending</h2>
+            
+              <div class="showcase-wrapper has-scrollbar">
+            
+                <div class="showcase-container">
+            
+                  <div class="showcase">
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/terrytowel/satintype.jpg" alt="Luxury Satin Stripe Towels" class="showcase-img" width="70">
+                    </a>
+                    <div class="showcase-content">
+                      <a href="#">
+                        <h4 class="showcase-title">Luxury Satin Stripe Towels</h4>
+                      </a>
+                      <a href="#" class="showcase-category">Hotel Collection</a>
+                      <!-- <div class="price-box">
+                        <p class="price">$49.00</p>
+                        <del>$15.00</del>
+                      </div> -->
+                    </div>
+                  </div>
+            
+                  <div class="showcase">
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/terrytowel/Velour Beach Towels.png" alt="Velour Beach Towels" class="showcase-img" width="70">
+                    </a>
+                    <div class="showcase-content">
+                      <a href="#">
+                        <h4 class="showcase-title">Velour Beach Towels</h4>
+                      </a>
+                      <a href="#" class="showcase-category">Beach Essentials</a>
+                      <!-- <div class="price-box">
+                        <p class="price">$78.00</p>
+                        <del>$36.00</del>
+                      </div> -->
+                    </div>
+                  </div>
+            
+                  <div class="showcase">
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/terrytowel/jackquard.jpg" alt="Jacquard Kitchen Towels" class="showcase-img" width="70">
+                    </a>
+                    <div class="showcase-content">
+                      <a href="#">
+                        <h4 class="showcase-title">Jacquard Kitchen Towels</h4>
+                      </a>
+                      <a href="#" class="showcase-category">Kitchen Essentials</a>
+                      <!-- <div class="price-box">
+                        <p class="price">$94.00</p>
+                        <del>$42.00</del>
+                      </div> -->
+                    </div>
+                  </div>
+            
+                  <div class="showcase">
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/terrytowel/chaddar.jpg" alt="Solapuri Chaddars" class="showcase-img" width="70">
+                    </a>
+                    <div class="showcase-content">
+                      <a href="#">
+                        <h4 class="showcase-title">Solapuri Chaddars</h4>
+                      </a>
+                      <a href="#" class="showcase-category">Traditional Collection</a>
+                      <div class="price-box">
+                        <p class="price">$54.00</p>
+                        <del>$65.00</del>
+                      </div>
+                    </div>
+                  </div>
+            
+                </div>
+            
+                <div class="showcase-container">
+            
+                  <div class="showcase">
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/terrytowel/roundbeach.jpg" alt="Round Beach Towels" class="showcase-img" width="70">
+                    </a>
+                    <div class="showcase-content">
+                      <a href="#">
+                        <h4 class="showcase-title">Round Beach Towels</h4>
+                      </a>
+                      <a href="#" class="showcase-category">Beach Essentials</a>
+                      <!-- <div class="price-box">
+                        <p class="price">$52.00</p>
+                        <del>$55.00</del>
+                      </div> -->
+                    </div>
+                  </div>
+            
+                  <div class="showcase">
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/terrytowel/bath mats.jpeg" alt="Bath Mats" class="showcase-img" width="70">
+                    </a>
+                    <div class="showcase-content">
+                      <a href="#">
+                        <h4 class="showcase-title">Bath Mats</h4>
+                      </a>
+                      <a href="#" class="showcase-category">Bathroom Collection</a>
+                      <!-- <div class="price-box">
+                        <p class="price">$20.00</p>
+                        <del>$30.00</del>
+                      </div> -->
+                    </div>
+                  </div>
+            
+                  <div class="showcase">
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/terrytowel/Plain Dyed Towels.jpg" alt="Plain Dyed Towels" class="showcase-img" width="70">
+                    </a>
+                    <div class="showcase-content">
+                      <a href="#">
+                        <h4 class="showcase-title">Plain Dyed Towels</h4>
+                      </a>
+                      <a href="#" class="showcase-category">Everyday Essentials</a>
+                      <!-- <div class="price-box">
+                        <p class="price">$56.00</p>
+                        <del>$78.00</del>
+                      </div> -->
+                    </div>
+                  </div>
+            
+                  <div class="showcase">
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/terrytowel/Prayer and Meditation Mats.jpg" alt="Prayer and Meditation Mats" class="showcase-img" width="70">
+                    </a>
+                    <div class="showcase-content">
+                      <a href="#">
+                        <h4 class="showcase-title">Prayer and Meditation Mats</h4>
+                      </a>
+                      <a href="#" class="showcase-category">Specialty Items</a>
+                      <!-- <div class="price-box">
+                        <p class="price">$50.00</p>
+                        <del>$55.00</del>
+                      </div> -->
+                    </div>
+                  </div>
+            
+                </div>
+            
+              </div>
+            
+            </div>
+            
+            
+
+            <div class="product-showcase">
+              <h2 class="title">Top Rated</h2>
+            
+              <div class="showcase-wrapper has-scrollbar">
+            
+                <div class="showcase-container">
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/hoteltowels/bath cover.jpg" alt="Premium Hotel Bath Towel" class="showcase-img" width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Premium Hotel Bath Towel</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Bath Linens</a>
+            
+                      <!-- <div class="price-box">
+                        <p class="price">$25.00</p>
+                        <del>$30.00</del>
+                      </div> -->
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/terrytowel/jackquard.jpg" alt="Jacquard Kitchen Towel Set" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Jacquard Kitchen Towel Set</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Kitchen Towels</a>
+            
+                      <!-- <div class="price-box">
+                        <p class="price">$18.00</p>
+                        <del>$22.00</del>
+                      </div> -->
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/terrytowel/chaddar.jpg" alt="Traditional Solapuri Chaddar" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Traditional Solapuri Chaddar</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Bedding Textiles</a>
+            
+                      <!-- <div class="price-box">
+                        <p class="price">$40.00</p>
+                        <del>$50.00</del>
+                      </div> -->
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/terrytowel/Velour Beach Towels.png" alt="Velour Beach Towel" class="showcase-img" width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Velour Beach Towel</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Beach Towels</a>
+            
+                      <!-- <div class="price-box">
+                        <p class="price">$28.00</p>
+                        <del>$35.00</del>
+                      </div> -->
+            
+                    </div>
+            
+                  </div>
+            
+                </div>
+            
+                <div class="showcase-container">
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/hoteltowels/bathrobe cover.jpeg" alt="Luxury Cotton Bathrobe" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Luxury Cotton Bathrobe</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Bath Linens</a>
+            
+                      <!-- <div class="price-box">
+                        <p class="price">$50.00</p>
+                        <del>$65.00</del>
+                      </div> -->
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/terrytowel/striped pool towel.jpeg" alt="Striped Pool Towel" class="showcase-img" width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Striped Pool Towel</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Bath Linens</a>
+            
+                      <!-- <div class="price-box">
+                        <p class="price">$22.00</p>
+                        <del>$30.00</del>
+                      </div> -->
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/terrytowel/Satin Stripe Duvet Cover.jpeg" alt="Satin Stripe Duvet Cover" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Satin Stripe Duvet Cover</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Bedding Textiles</a>
+            
+                      <!-- <div class="price-box">
+                        <p class="price">$48.00</p>
+                        <del>$60.00</del>
+                      </div> -->
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/terrytowel/hand towel.jpg" alt="Soft Cotton Hand Towel" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Soft Cotton Hand Towel</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Bath Linens</a>
+            
+                      <!-- <div class="price-box">
+                        <p class="price">$12.00</p>
+                        <del>$15.00</del>
+                      </div> -->
+            
+                    </div>
+            
+                  </div>
+            
+                </div>
+            
+              </div>
+            
+            </div>
+            
+          </div>
+
+
+
+          <!--
+            - PRODUCT FEATURED
+          -->
+
+          <div class="product-featured">
+
+            <h2 class="title">Deal of the day</h2>
+
+            <div class="showcase-wrapper has-scrollbar">
+
+              <div class="showcase-container">
+
+                <div class="showcase">
+                  <div class="showcase-banner">
+                    <img src="./assets/images/products/hoteltowels/bath cover.jpg" alt="Luxury Hotel Towels" class="showcase-img">
+                  </div>
+              
+                  <div class="showcase-content">
+              
+                    <div class="showcase-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                    </div>
+              
+                    <a href="#">
+                      <h3 class="showcase-title">Luxury Hotel Towels</h3>
+                    </a>
+              
+                    <p class="showcase-desc">
+                      High-quality, soft and durable towels ideal for luxury hotel settings. Available in multiple sizes.
+                    </p>
+              
+                    <!-- <div class="price-box">
+                      <p class="price">$150.00</p>
+                      <del>$200.00</del>
+                    </div> -->
+              
+                    <!-- <button class="add-cart-btn">Add to Cart</button> -->
+              
+                    <div class="showcase-status">
+                      <div class="wrapper">
+                        <p>
+                          Already Sold: <b>20</b>
+                        </p>
+                        <p>
+                          Available: <b>40</b>
+                        </p>
+                      </div>
+                      <div class="showcase-status-bar"></div>
+                    </div>
+              
+                    <div class="countdown-box">
+              
+                      <p class="countdown-desc">
+                        Hurry Up! Offer ends in:
+                      </p>
+              
+                      <div class="countdown">
+              
+                        <div class="countdown-content">
+                          <p class="display-number">360</p>
+                          <p class="display-text">Days</p>
+                        </div>
+              
+                        <div class="countdown-content">
+                          <p class="display-number">24</p>
+                          <p class="display-text">Hours</p>
+                        </div>
+              
+                        <div class="countdown-content">
+                          <p class="display-number">59</p>
+                          <p class="display-text">Min</p>
+                        </div>
+              
+                        <div class="countdown-content">
+                          <p class="display-number">00</p>
+                          <p class="display-text">Sec</p>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                  </div>
+              
+                </div>
+              
+              </div>
+              
+
+              <div class="showcase-container">
+  
+                <div class="showcase">
+                
+                  <div class="showcase-banner">
+                    <img src="./assets/images/products/terrytowel/solapuri chaddar.webp" alt="Solapuri Chaddar" class="showcase-img">
+                  </div>
+                
+                  <div class="showcase-content">
+                
+                    <div class="showcase-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                    </div>
+                
+                    <h3 class="showcase-title">
+                      <a href="#" class="showcase-title">Solapuri Chaddar</a>
+                    </h3>
+                
+                    <p class="showcase-desc">
+                      Traditional and high-quality Solapuri Chaddars, perfect for home use or gifting. Handwoven with intricate designs, available in various colors.
+                    </p>
+                
+                    <!-- <div class="price-box">
+                      <p class="price">$35.00</p>
+                      <del>$50.00</del>
+                    </div> -->
+                
+                    <!-- <button class="add-cart-btn">Add to Cart</button> -->
+                
+                    <div class="showcase-status">
+                      <div class="wrapper">
+                        <p>Already Sold: <b>50</b></p>
+                
+                        <p>Available: <b>100</b></p>
+                      </div>
+                
+                      <div class="showcase-status-bar"></div>
+                    </div>
+                
+                    <div class="countdown-box">
+                
+                      <p class="countdown-desc">Hurry Up! Offer ends in:</p>
+                
+                      <div class="countdown">
+                        <div class="countdown-content">
+                          <p class="display-number">360</p>
+                          <p class="display-text">Days</p>
+                        </div>
+                
+                        <div class="countdown-content">
+                          <p class="display-number">24</p>
+                          <p class="display-text">Hours</p>
+                        </div>
+                
+                        <div class="countdown-content">
+                          <p class="display-number">59</p>
+                          <p class="display-text">Min</p>
+                        </div>
+                
+                        <div class="countdown-content">
+                          <p class="display-number">00</p>
+                          <p class="display-text">Sec</p>
+                        </div>
+                      </div>
+                
+                    </div>
+                
+                  </div>
+                
+                </div>
+              
+              </div>
+              
+
+            </div>
+
+          </div>
+
+
+
+          <!--
+            - PRODUCT GRID
+          -->
+
+          <div class="product-main">
+
+            <h2 class="title">New Products</h2>
+
+            <div class="product-grid">
+
+              <div class="showcase">
+
+                <div class="showcase-banner">
+              
+                  <img src="./assets/images/products/terrytowel/bath linen.jpg" alt="Mens Winter Leathers Jackets" width="300" class="product-img default">
+                  <img src="./assets/images/products/terrytowel/bath-linens.webp" alt="Mens Winter Leathers Jackets" width="300" class="product-img hover">
+              
+                  <p class="showcase-badge">15%</p>
+              
+                  <div class="showcase-actions">
+              
+                    <button class="btn-action">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+              
+                    <button class="btn-action">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+              
+                    <button class="btn-action">
+                      <ion-icon name="repeat-outline"></ion-icon>
+                    </button>
+              
+                    <button class="btn-action">
+                      <ion-icon name="bag-add-outline"></ion-icon>
+                    </button>
+              
+                  </div>
+              
+                </div>
+              
+                <div class="showcase-content">
+              
+                  <a href="#" class="showcase-category">Bath Linens</a>
+              
+                  <a href="#">
+                    <h3 class="showcase-title">Luxury Terry Towels - White</h3>
+                  </a>
+              
+                  <div class="showcase-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                  </div>
+              
+                  <!-- <div class="price-box">
+                    <p class="price">$48.00</p>
+                    <del>$75.00</del>
+                  </div> -->
+              
+                </div>
+              
+              </div>
+              
+
+              <div class="showcase">
+  
+                <div class="showcase-banner">
+                  <img src="./assets/images/products/hoteltowels/bathrobe cover.jpeg" alt="Pure Garment Dyed Cotton Shirt" class="product-img default" width="300">
+                  <img src="./assets/images/products/hoteltowels/bathrobe.webp" alt="Pure Garment Dyed Cotton Shirt" class="product-img hover" width="300">
+                
+                  <p class="showcase-badge angle black">sale</p>
+                
+                  <div class="showcase-actions">
+                    <button class="btn-action">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+                
+                    <button class="btn-action">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+                
+                    <button class="btn-action">
+                      <ion-icon name="repeat-outline"></ion-icon>
+                    </button>
+                
+                    <button class="btn-action">
+                      <ion-icon name="bag-add-outline"></ion-icon>
+                    </button>
+                  </div>
+                </div>
+                
+                <div class="showcase-content">
+                  <a href="#" class="showcase-category">Bath Linens</a>
+                
+                  <h3>
+                    <a href="#" class="showcase-title">Premium Soft Terry Towels</a>
+                  </h3>
+                
+                  <div class="showcase-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                  </div>
+                
+                  <!-- <div class="price-box">
+                    <p class="price">$45.00</p>
+                    <del>$56.00</del>
+                  </div> -->
+                
+                </div>
+                
+              </div>
+              
+              <div class="showcase">
+                
+                <div class="showcase-banner">
+                  <img src="./assets/images/products/terrytowel/bath-linens.webp" alt="MEN Yarn Fleece Full-Zip Jacket" class="product-img default" width="300">
+                  <img src="./assets/images/products/hoteltowels/bath cover.jpg" alt="MEN Yarn Fleece Full-Zip Jacket" class="product-img hover" width="300">
+                
+                  <div class="showcase-actions">
+                    <button class="btn-action">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+                
+                    <button class="btn-action">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+                
+                    <button class="btn-action">
+                      <ion-icon name="repeat-outline"></ion-icon>
+                    </button>
+                
+                    <button class="btn-action">
+                      <ion-icon name="bag-add-outline"></ion-icon>
+                    </button>
+                  </div>
+                </div>
+                
+                <div class="showcase-content">
+                  <a href="#" class="showcase-category">Bathrobes</a>
+                
+                  <h3>
+                    <a href="#" class="showcase-title">Luxury Terry Bathrobe - White</a>
+                  </h3>
+                
+                  <div class="showcase-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                  </div>
+                
+                  <!-- <div class="price-box">
+                    <p class="price">$58.00</p>
+                    <del>$65.00</del>
+                  </div> -->
+                
+                </div>
+                
+              </div>
+              
+              <div class="showcase">
+                
+                <div class="showcase-banner">
+                  <img src="./assets/images/products/terrytowel/chaddar.jpg" alt="Black Floral Wrap Midi Skirt" class="product-img default" width="300">
+                  <img src="./assets/images/products/terrytowel/solapuri chaddar.webp" alt="Black Floral Wrap Midi Skirt" class="product-img hover" width="300">
+                
+                  <p class="showcase-badge angle pink">new</p>
+                
+                  <div class="showcase-actions">
+                    <button class="btn-action">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+                
+                    <button class="btn-action">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+                
+                    <button class="btn-action">
+                      <ion-icon name="repeat-outline"></ion-icon>
+                    </button>
+                
+                    <button class="btn-action">
+                      <ion-icon name="bag-add-outline"></ion-icon>
+                    </button>
+                  </div>
+                </div>
+                
+                <div class="showcase-content">
+                  <a href="#" class="showcase-category">Solapuri Chaddars</a>
+                
+                  <h3>
+                    <a href="#" class="showcase-title">Solapuri Chaddar - Multicolor</a>
+                  </h3>
+                
+                  <div class="showcase-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                
+                  <!-- <div class="price-box">
+                    <p class="price">$25.00</p>
+                    <del>$35.00</del>
+                  </div> -->
+                
+                </div>
+                
+              </div>
+              
+
+              <div class="showcase">
+                <div class="showcase-banner">
+                  <img src="./assets/images/products/terrytowel/Plain Dyed Towels.jpg" alt="Luxury Hotel Bath Towels" class="product-img default" width="300">
+                  <img src="./assets/images/products/terrytowel/hand towel.jpg" alt="Luxury Hotel Bath Towels" class="product-img hover" width="300">
+              
+                  <div class="showcase-actions">
+                    <button class="btn-action">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+              
+                    <button class="btn-action">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+              
+                    <button class="btn-action">
+                      <ion-icon name="repeat-outline"></ion-icon>
+                    </button>
+              
+                    <button class="btn-action">
+                      <ion-icon name="bag-add-outline"></ion-icon>
+                    </button>
+                  </div>
+                </div>
+              
+                <div class="showcase-content">
+                  <a href="#" class="showcase-category">hotel towels</a>
+              
+                  <h3>
+                    <a href="#" class="showcase-title">Luxury Hotel Bath Towels</a>
+                  </h3>
+              
+                  <div class="showcase-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                  </div>
+              
+                  <!-- <div class="price-box">
+                    <p class="price">$25.00</p>
+                    <del>$30.00</del>
+                  </div> -->
+                </div>
+              </div>
+              
+              <div class="showcase">
+                <div class="showcase-banner">
+                  <img src="./assets/images/products/hoteltowels/bathrobe.webp" alt="Elegant Bathrobe" class="product-img default" width="300">
+                  <img src="./assets/images/products/hoteltowels/bathrobe cover.jpeg" alt="Elegant Bathrobe" class="product-img hover" width="300">
+              
+                  <p class="showcase-badge angle black">sale</p>
+              
+                  <div class="showcase-actions">
+                    <button class="btn-action">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+              
+                    <button class="btn-action">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+              
+                    <button class="btn-action">
+                      <ion-icon name="repeat-outline"></ion-icon>
+                    </button>
+              
+                    <button class="btn-action">
+                      <ion-icon name="bag-add-outline"></ion-icon>
+                    </button>
+                  </div>
+                </div>
+              
+                <div class="showcase-content">
+                  <a href="#" class="showcase-category">bathrobes</a>
+              
+                  <h3>
+                    <a href="#" class="showcase-title">Elegant Bathrobe</a>
+                  </h3>
+              
+                  <div class="showcase-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                  </div>
+              
+                  <!-- <div class="price-box">
+                    <p class="price">$40.00</p>
+                    <del>$50.00</del>
+                  </div> -->
+                </div>
+              </div>
+              
+              <div class="showcase">
+                <div class="showcase-banner">
+                  <img src="./assets/images/products/terrytowel/solapuri chaddar.webp" alt="Solapuri Chaddar - Traditional" class="product-img default" width="300">
+                  <img src="./assets/images/products/terrytowel/chaddar.jpg" alt="Solapuri Chaddar - Traditional" class="product-img hover" width="300">
+              
+                  <div class="showcase-actions">
+                    <button class="btn-action">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+              
+                    <button class="btn-action">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+              
+                    <button class="btn-action">
+                      <ion-icon name="repeat-outline"></ion-icon>
+                    </button>
+              
+                    <button class="btn-action">
+                      <ion-icon name="bag-add-outline"></ion-icon>
+                    </button>
+                  </div>
+                </div>
+              
+                <div class="showcase-content">
+                  <a href="#" class="showcase-category">solapuri chaddars</a>
+              
+                  <h3>
+                    <a href="#" class="showcase-title">Solapuri Chaddar - Traditional</a>
+                  </h3>
+              
+                  <div class="showcase-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                  </div>
+              
+                  <!-- <div class="price-box">
+                    <p class="price">$20.00</p>
+                    <del>$25.00</del>
+                  </div> -->
+                </div>
+              </div>
+              
+
+              <div class="showcase">
+              
+                <div class="showcase-banner">
+                  <img src="./assets/images/products/hoteltowels/bedding cover.avif" alt="Better Basics French Terry Sweatshorts"
+                    class="product-img default" width="300">
+                  <img src="./assets/images/products/hoteltowels/bedding.jpeg" alt="Better Basics French Terry Sweatshorts"
+                    class="product-img hover" width="300">
+              
+                  <p class="showcase-badge angle black">sale</p>
+              
+                  <div class="showcase-actions">
+                    <button class="btn-action">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+              
+                    <button class="btn-action">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+              
+                    <button class="btn-action">
+                      <ion-icon name="repeat-outline"></ion-icon>
+                    </button>
+              
+                    <button class="btn-action">
+                      <ion-icon name="bag-add-outline"></ion-icon>
+                    </button>
+                  </div>
+                </div>
+              
+                <div class="showcase-content">
+                  <a href="#" class="showcase-category">Bedding</a>
+              
+                  <h3>
+                    <a href="#" class="showcase-title">Confort Sleep with better fabric</a>
+                  </h3>
+              
+                  <div class="showcase-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                  </div>
+              
+                  <!-- <div class="price-box">
+                    <p class="price">$78.00</p>
+                    <del>$85.00</del>
+                  </div> -->
+              
+                </div>
+              
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+
+
+    <!--
+      - TESTIMONIALS, CTA & SERVICE
+    -->
+
+    <div>
+
+      <div class="container">
+
+        <div class="testimonials-box">
+
+          <!--
+            - TESTIMONIALS
+          -->
+
+          <div class="testimonial">
+
+            <h2 class="title">testimonial</h2>
+
+            <div class="testimonial-card">
+
+              <img src="./assets/images/logo/favicon.jpg" alt="alan doe" class="testimonial-banner" width="80" height="80">
+
+              <p class="testimonial-name">Rahul Kshirsagar</p>
+
+              <p class="testimonial-title">CEO</p>
+
+              <img src="./assets/images/icons/quotes.svg" alt="quotation" class="quotation-img" width="26">
+
+              <p class="testimonial-desc">
+                Lorem ipsum dolor sit amet consectetur Lorem ipsum
+                dolor dolor sit amet.
+              </p>
+
+            </div>
+
+          </div>
+
+
+
+          <!--
+            - CTA
+          -->
+
+          <div class="cta-container">
+
+            <img src="./assets/images/cta-banner.jpg" alt="summer collection" class="cta-banner">
+
+            <a href="#" class="cta-content">
+
+              <p class="discount">25% Discount</p>
+
+              <h2 class="cta-title">Summer collection</h2>
+
+              <p class="cta-text">Starting @ $10</p>
+
+              <button class="cta-btn">Shop now</button>
+
+            </a>
+
+          </div>
+
+
+
+          <!--
+            - SERVICE
+          -->
+
+          <div class="service">
+
+            <h2 class="title">Our Services</h2>
+
+            <div class="service-container">
+
+              <a href="#" class="service-item">
+
+                <div class="service-icon">
+                  <ion-icon name="boat-outline"></ion-icon>
+                </div>
+
+                <div class="service-content">
+
+                  <h3 class="service-title">Worldwide Delivery</h3>
+                  <p class="service-desc">For Order Over $100</p>
+
+                </div>
+
+              </a>
+
+              <a href="#" class="service-item">
+              
+                <div class="service-icon">
+                  <ion-icon name="rocket-outline"></ion-icon>
+                </div>
+              
+                <div class="service-content">
+              
+                  <h3 class="service-title">Next Day delivery</h3>
+                  <p class="service-desc">UK Orders Only</p>
+              
+                </div>
+              
+              </a>
+
+              <a href="#" class="service-item">
+              
+                <div class="service-icon">
+                  <ion-icon name="call-outline"></ion-icon>
+                </div>
+              
+                <div class="service-content">
+              
+                  <h3 class="service-title">Best Online Support</h3>
+                  <p class="service-desc">Hours: 8AM - 11PM</p>
+              
+                </div>
+              
+              </a>
+
+              <a href="#" class="service-item">
+              
+                <div class="service-icon">
+                  <ion-icon name="arrow-undo-outline"></ion-icon>
+                </div>
+              
+                <div class="service-content">
+              
+                  <h3 class="service-title">Return Policy</h3>
+                  <p class="service-desc">Easy & Free Return</p>
+              
+                </div>
+              
+              </a>
+
+              <a href="#" class="service-item">
+              
+                <div class="service-icon">
+                  <ion-icon name="ticket-outline"></ion-icon>
+                </div>
+              
+                <div class="service-content">
+              
+                  <h3 class="service-title">30% money back</h3>
+                  <p class="service-desc">For Order Over $100</p>
+              
+                </div>
+              
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+
+
+    <!--
+      - BLOG
+    -->
+
+    <!-- <div class="blog">
+
+      <div class="container">
+
+        <div class="blog-container has-scrollbar">
+
+          <div class="blog-card">
+
+            <a href="#">
+              <img src="./assets/images/blog-1.jpg" alt="Clothes Retail KPIs 2021 Guide for Clothes Executives" width="300" class="blog-banner">
+            </a>
+
+            <div class="blog-content">
+
+              <a href="#" class="blog-category">Fashion</a>
+
+              <a href="#">
+                <h3 class="blog-title">Clothes Retail KPIs 2021 Guide for Clothes Executives.</h3>
+              </a>
+
+              <p class="blog-meta">
+                By <cite>Mr Admin</cite> / <time datetime="2022-04-06">Apr 06, 2022</time>
+              </p>
+
+            </div>
+
+          </div>
+
+          <div class="blog-card">
+          
+            <a href="#">
+              <img src="./assets/images/blog-2.jpg" alt="Curbside fashion Trends: How to Win the Pickup Battle."
+                class="blog-banner" width="300">
+            </a>
+          
+            <div class="blog-content">
+          
+              <a href="#" class="blog-category">Clothes</a>
+          
+              <h3>
+                <a href="#" class="blog-title">Curbside fashion Trends: How to Win the Pickup Battle.</a>
+              </h3>
+          
+              <p class="blog-meta">
+                By <cite>Mr Robin</cite> / <time datetime="2022-01-18">Jan 18, 2022</time>
+              </p>
+          
+            </div>
+          
+          </div>
+
+          <div class="blog-card">
+          
+            <a href="#">
+              <img src="./assets/images/blog-3.jpg" alt="EBT vendors: Claim Your Share of SNAP Online Revenue."
+                class="blog-banner" width="300">
+            </a>
+          
+            <div class="blog-content">
+          
+              <a href="#" class="blog-category">Shoes</a>
+          
+              <h3>
+                <a href="#" class="blog-title">EBT vendors: Claim Your Share of SNAP Online Revenue.</a>
+              </h3>
+          
+              <p class="blog-meta">
+                By <cite>Mr Selsa</cite> / <time datetime="2022-02-10">Feb 10, 2022</time>
+              </p>
+          
+            </div>
+          
+          </div>
+
+          <div class="blog-card">
+          
+            <a href="#">
+              <img src="./assets/images/blog-4.jpg" alt="Curbside fashion Trends: How to Win the Pickup Battle."
+                class="blog-banner" width="300">
+            </a>
+          
+            <div class="blog-content">
+          
+              <a href="#" class="blog-category">Electronics</a>
+          
+              <h3>
+                <a href="#" class="blog-title">Curbside fashion Trends: How to Win the Pickup Battle.</a>
+              </h3>
+          
+              <p class="blog-meta">
+                By <cite>Mr Pawar</cite> / <time datetime="2022-03-15">Mar 15, 2022</time>
+              </p>
+          
+            </div>
+          
+          </div>
+
+        </div>
+
+      </div>
+
+    </div> -->
+
+  </main>
+
+
+
+
+
+  <!--
+    - FOOTER
+  -->
+
+  <footer>
+
+    <div class="footer-category">
+      <div class="container">
+        <h2 class="footer-category-title">Product Categories</h2>
+    
+        <div class="footer-category-box">
+          <h3 class="category-box-title">Towels:</h3>
+          <a href="#" class="footer-category-link">Hotel Towels</a>
+          <a href="#" class="footer-category-link">Bath Towels</a>
+          <a href="#" class="footer-category-link">Face Towels</a>
+          <a href="#" class="footer-category-link">Hand Towels</a>
+          <a href="#" class="footer-category-link">Velour Beach Towels</a>
+          <a href="#" class="footer-category-link">Round Beach Towels</a>
+          <a href="#" class="footer-category-link">Embroidery Towels</a>
+          <a href="#" class="footer-category-link">Logo Towels</a>
+          <a href="#" class="footer-category-link">Pool Towels</a>
+        </div>
+    
+        <div class="footer-category-box">
+          <h3 class="category-box-title">Bathrobes:</h3>
+          <a href="#" class="footer-category-link">Hotel Bathrobes</a>
+          <a href="#" class="footer-category-link">Luxury Bathrobes</a>
+          <a href="#" class="footer-category-link">Cotton Bathrobes</a>
+          <a href="#" class="footer-category-link">Embroidered Bathrobes</a>
+        </div>
+    
+        <div class="footer-category-box">
+          <h3 class="category-box-title">Bedding Textiles:</h3>
+          <a href="#" class="footer-category-link">Bedsheets</a>
+          <a href="#" class="footer-category-link">Pillows</a>
+          <a href="#" class="footer-category-link">Duvets</a>
+          <a href="#" class="footer-category-link">Blankets</a>
+          <a href="#" class="footer-category-link">Bed Covers</a>
+        </div>
+    
+        <div class="footer-category-box">
+          <h3 class="category-box-title">Solapuri Chaddars:</h3>
+          <a href="#" class="footer-category-link">Solapuri Chaddars - Traditional</a>
+          <a href="#" class="footer-category-link">Solapuri Chaddars - Modern</a>
+          <a href="#" class="footer-category-link">Round Solapuri Chaddars</a>
+          <a href="#" class="footer-category-link">Prayer Mats</a>
+          <a href="#" class="footer-category-link">Meditation Mats</a>
+        </div>
+    
+        <div class="footer-category-box">
+          <h3 class="category-box-title">Kitchen Towels:</h3>
+          <a href="#" class="footer-category-link">Jacquard Kitchen Towels</a>
+          <a href="#" class="footer-category-link">Dobby Checks Kitchen Towels</a>
+          <a href="#" class="footer-category-link">Super Checks Kitchen Towels</a>
+          <a href="#" class="footer-category-link">Big Square Checks Kitchen Towels</a>
+        </div>
+    
+      </div>
+    </div>
+    
+
+    <div class="footer-nav">
+
+      <div class="container">
+
+        <ul class="footer-nav-list">
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Popular Categories</h2>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Towels</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Bathrobes</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Bedding Textiles</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Solapuri Chaddars</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Kitchen Towels</a>
+          </li>
+        </ul>
+        
+
+        <ul class="footer-nav-list">
+        
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Products</h2>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Prices drop</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">New products</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Best sales</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Contact us</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Sitemap</a>
+          </li>
+        
+        </ul>
+
+        <ul class="footer-nav-list">
+        
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Our Company</h2>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Delivery</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Legal Notice</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Terms and conditions</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">About us</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Secure payment</a>
+          </li>
+        
+        </ul>
+
+        <ul class="footer-nav-list">
+        
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Services</h2>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Prices drop</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">New products</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Best sales</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Contact us</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Sitemap</a>
+          </li>
+        
+        </ul>
+
+        <ul class="footer-nav-list">
+
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Contact</h2>
+          </li>
+
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <address class="content">
+              Nath Pride, Near Civil Hospital
+              North Sadar Bazar, Solapur, 413003
+            </address>
+          </li>
+
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="call-outline"></ion-icon>
+            </div>
+
+            <a href="tel:+607936-8058" class="footer-nav-link">0217 - 2317425</a>
+          </li>
+
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <a href="info@kshirsagar.com" class="footer-nav-link">info@kshirsagar.com</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-nav-list">
+
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Follow Us</h2>
+          </li>
+
+          <li>
+            <ul class="social-link">
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+
+            </ul>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+      <div class="container">
+
+        <img src="./assets/images/payment.png" alt="payment method" class="payment-img">
+
+        <p class="copyright">
+          Copyright &copy; <a href="https://innositetechsolutions.vercel.app" target="_blank" rel="noopener noreferrer">Innosite Tech Solutions</a> all rights reserved.
+        </p>
+        
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
